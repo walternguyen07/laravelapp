@@ -26,4 +26,7 @@ return [
 	"departments" => [
 	"table" => "departments",
 	],
+	"professionaltitles" => [
+	"table" => "professionaltitles",
+	],
 ];

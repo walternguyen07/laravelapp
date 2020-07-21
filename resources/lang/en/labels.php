@@ -259,6 +259,16 @@ return [
 	"createdat" => "Created At",
 	],
 	],
+	"professionaltitles" => [
+	"create" => "Create ProfessionalTitle",
+	"edit" => "Edit ProfessionalTitle",
+	"management" => "ProfessionalTitle Management",
+	"title" => "ProfessionalTitles",
+	"table" => [
+	"id" => "Id",
+	"createdat" => "Created At",
+	],
+	],
 	],
 	"frontend" => [
 	"auth" => [

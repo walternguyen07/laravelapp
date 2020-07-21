@@ -64,5 +64,10 @@ return [
 	"deleted" => "The Department was successfully deleted.",
 	"updated" => "The Department was successfully updated.",
 	],
+	"professionaltitles" => [
+	"created" => "The ProfessionalTitle was successfully created.",
+	"deleted" => "The ProfessionalTitle was successfully deleted.",
+	"updated" => "The ProfessionalTitle was successfully updated.",
+	],
 	],
 ];

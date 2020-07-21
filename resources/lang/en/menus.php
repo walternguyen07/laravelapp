@@ -122,6 +122,13 @@ return [
 	"management" => "Department Management",
 	"main" => "Departments",
 	],
+	"professionaltitles" => [
+	"all" => "All ProfessionalTitles",
+	"create" => "Create ProfessionalTitle",
+	"edit" => "Edit ProfessionalTitle",
+	"management" => "ProfessionalTitle Management",
+	"main" => "ProfessionalTitles",
+	],
 	],
 	"language-picker" => [
 	"language" => "Language",
