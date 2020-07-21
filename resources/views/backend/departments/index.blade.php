@@ -35,6 +35,8 @@
                     <thead>
                         <tr>
                             <th>{{ trans('labels.backend.departments.table.id') }}</th>
+                            <th>{{ trans('labels.backend.departments.table.name') }}</th>
+                            <th>{{ trans('labels.backend.departments.table.status') }}</th>
                             <th>{{ trans('labels.backend.departments.table.createdat') }}</th>
                             <th>{{ trans('labels.general.actions') }}</th>
                         </tr>
@@ -74,6 +76,8 @@
                 },
                 columns: [
                     {data: 'id', name: '{{config('module.departments.table')}}.id'},
+                    {data: 'name', name: '{{config('module.departments.table')}}.name'},
+                    {data: 'status', name: '{{config('module.departments.table')}}.status'},
                     {data: 'created_at', name: '{{config('module.departments.table')}}.created_at'},
                     {data: 'actions', name: 'actions', searchable: false, sortable: false}
                 ],

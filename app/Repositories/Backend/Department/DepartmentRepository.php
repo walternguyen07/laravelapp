@@ -13,6 +13,9 @@
 namespace App\Repositories\Backend\Department;
 
 use DB;
+use App\Events\Backend\Department\DepartmentCreated;
+use App\Events\Backend\Department\DepartmentDeleted;
+use App\Events\Backend\Department\DepartmentUpdated;
 use Carbon\Carbon;
 use App\Models\Department\Department;
 use App\Exceptions\GeneralException;
@@ -40,6 +43,8 @@ class DepartmentRepository extends BaseRepository
         return $this->query()
             ->select([
                 config('module.departments.table').'.id',
+                config('module.departments.table').'.name',
+                config('module.departments.table').'.status',
                 config('module.departments.table').'.created_at',
                 config('module.departments.table').'.updated_at',
             ]);
@@ -55,6 +60,7 @@ class DepartmentRepository extends BaseRepository
     public function create(array $input)
     {
         if (Department::create($input)) {
+            event(new DepartmentCreated($department));
             return true;
         }
         throw new GeneralException(trans('exceptions.backend.departments.create_error'));
@@ -70,7 +76,8 @@ class DepartmentRepository extends BaseRepository
      */
     public function update(Department $department, array $input)
     {
-    	if ($department->update($input))
+        if ($department->update($input))
+        event(new DepartmentUpdated($department));
             return true;
 
         throw new GeneralException(trans('exceptions.backend.departments.update_error'));
@@ -86,6 +93,7 @@ class DepartmentRepository extends BaseRepository
     public function delete(Department $department)
     {
         if ($department->delete()) {
+            event(new DepartmentDeleted($department));
             return true;
         }
 

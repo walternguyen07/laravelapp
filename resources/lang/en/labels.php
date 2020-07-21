@@ -254,6 +254,8 @@ return [
 	"title" => "Departments",
 	"table" => [
 	"id" => "Id",
+	"name" => "Name",
+	"status" => "Status",
 	"createdat" => "Created At",
 	],
 	],

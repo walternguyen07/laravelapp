@@ -23,7 +23,7 @@
 @endsection
 
 @section('content')
-    {{ Form::model($departments, ['route' => ['admin.departments.update', $department], 'class' => 'form-horizontal', 'role' => 'form', 'method' => 'PATCH', 'id' => 'edit-department']) }}
+    {{ Form::model($departments, ['route' => ['admin.departments.update', $departments], 'class' => 'form-horizontal', 'role' => 'form', 'method' => 'PATCH', 'id' => 'edit-department']) }}
 
         <div class="box box-info">
             <div class="box-header with-border">

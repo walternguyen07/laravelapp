@@ -170,6 +170,10 @@ return [
                 'title' => 'Blog Category',
                 'is_active' => 'Active',
             ],
+            'department' => [
+                'title' => 'Department Name',
+                'is_active' => 'Active',
+            ],
 
             'blogtags' => [
                 'title' => 'Blog Tag',

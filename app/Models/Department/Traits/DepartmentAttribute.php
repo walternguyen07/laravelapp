@@ -28,8 +28,9 @@ trait DepartmentAttribute
      */
     public function getActionButtonsAttribute()
     {
-        return '<div class="btn-group action-btn"> {$this->getEditButtonAttribute("edit-department", "admin.departments.edit")}
-                {$this->getDeleteButtonAttribute("delete-department", "admin.departments.destroy")}
-                </div>';
+        return '<div class="btn-group action-btn">'.
+        $this->getEditButtonAttribute('edit-banner', 'admin.departments.edit').
+        $this->getDeleteButtonAttribute('delete-banner', 'admin.departments.destroy').
+        '</div>';
     }
 }

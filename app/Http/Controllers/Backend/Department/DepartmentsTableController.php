@@ -48,6 +48,10 @@ class DepartmentsTableController extends Controller
     {
         return Datatables::of($this->department->getForDataTable())
             ->escapeColumns(['id'])
+            ->escapeColumns(['name'])
+            ->addColumn('status', function ($department) {
+                return $department->status == 1 ? "Hoạt động" : "Không hoạt động";
+            })
             ->addColumn('created_at', function ($department) {
                 return Carbon::parse($department->created_at)->toDateString();
             })

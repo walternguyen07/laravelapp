@@ -14,14 +14,17 @@ class BannerUpdated
 {
     use Dispatchable, InteractsWithSockets, SerializesModels;
 
+    public $banners;
+
     /**
      * Create a new event instance.
      *
      * @return void
      */
-    public function __construct()
+    public function __construct($banners)
     {
         //
+        $this->banners = $banners;
     }
 
     /**
