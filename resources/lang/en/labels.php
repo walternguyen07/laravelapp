@@ -269,6 +269,56 @@ return [
 	"createdat" => "Created At",
 	],
 	],
+	"phongbans" => [
+	"create" => "Create PhongBan",
+	"edit" => "Edit PhongBan",
+	"management" => "PhongBan Management",
+	"title" => "PhongBans",
+	"table" => [
+	"id" => "Id",
+	"createdat" => "Created At",
+	],
+	],
+	"khachhangs" => [
+	"create" => "Create Khachhang",
+	"edit" => "Edit Khachhang",
+	"management" => "Khachhang Management",
+	"title" => "Khachhangs",
+	"table" => [
+	"id" => "Id",
+	"createdat" => "Created At",
+	],
+	],
+	"interests" => [
+	"create" => "Create Interest",
+	"edit" => "Edit Interest",
+	"management" => "Interest Management",
+	"title" => "Interests",
+	"table" => [
+	"id" => "Id",
+	"createdat" => "Created At",
+	],
+	],
+	"watcheds" => [
+	"create" => "Create Watched",
+	"edit" => "Edit Watched",
+	"management" => "Watched Management",
+	"title" => "Watcheds",
+	"table" => [
+	"id" => "Id",
+	"createdat" => "Created At",
+	],
+	],
+	"realestatelistings" => [
+	"create" => "Create RealEstateListing",
+	"edit" => "Edit RealEstateListing",
+	"management" => "RealEstateListing Management",
+	"title" => "RealEstateListings",
+	"table" => [
+	"id" => "Id",
+	"createdat" => "Created At",
+	],
+	],
 	],
 	"frontend" => [
 	"auth" => [

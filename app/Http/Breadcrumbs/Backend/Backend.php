@@ -20,3 +20,8 @@ require __DIR__.'/LogViewer.php';
 require __DIR__.'/Banner.php';
 require __DIR__.'/Department.php';
 require __DIR__.'/ProfessionalTitle.php';
+require __DIR__.'/PhongBan.php';
+require __DIR__.'/Khachhang.php';
+require __DIR__.'/Interest.php';
+require __DIR__.'/Watched.php';
+require __DIR__.'/RealEstateListing.php';

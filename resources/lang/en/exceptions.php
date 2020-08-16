@@ -99,6 +99,41 @@ return [
 	"not_found" => "That ProfessionalTitle does not exist.",
 	"update_error" => "There was a problem updating this ProfessionalTitle. Please try again.",
 	],
+	"phongbans" => [
+	"already_exists" => "That PhongBan already exists. Please choose a different name.",
+	"create_error" => "There was a problem creating this PhongBan. Please try again.",
+	"delete_error" => "There was a problem deleting this PhongBan. Please try again.",
+	"not_found" => "That PhongBan does not exist.",
+	"update_error" => "There was a problem updating this PhongBan. Please try again.",
+	],
+	"khachhangs" => [
+	"already_exists" => "That Khachhang already exists. Please choose a different name.",
+	"create_error" => "There was a problem creating this Khachhang. Please try again.",
+	"delete_error" => "There was a problem deleting this Khachhang. Please try again.",
+	"not_found" => "That Khachhang does not exist.",
+	"update_error" => "There was a problem updating this Khachhang. Please try again.",
+	],
+	"interests" => [
+	"already_exists" => "That Interest already exists. Please choose a different name.",
+	"create_error" => "There was a problem creating this Interest. Please try again.",
+	"delete_error" => "There was a problem deleting this Interest. Please try again.",
+	"not_found" => "That Interest does not exist.",
+	"update_error" => "There was a problem updating this Interest. Please try again.",
+	],
+	"watcheds" => [
+	"already_exists" => "That Watched already exists. Please choose a different name.",
+	"create_error" => "There was a problem creating this Watched. Please try again.",
+	"delete_error" => "There was a problem deleting this Watched. Please try again.",
+	"not_found" => "That Watched does not exist.",
+	"update_error" => "There was a problem updating this Watched. Please try again.",
+	],
+	"realestatelistings" => [
+	"already_exists" => "That RealEstateListing already exists. Please choose a different name.",
+	"create_error" => "There was a problem creating this RealEstateListing. Please try again.",
+	"delete_error" => "There was a problem deleting this RealEstateListing. Please try again.",
+	"not_found" => "That RealEstateListing does not exist.",
+	"update_error" => "There was a problem updating this RealEstateListing. Please try again.",
+	],
 	],
 	"frontend" => [
 	"auth" => [

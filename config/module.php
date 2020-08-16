@@ -29,4 +29,19 @@ return [
 	"professionaltitles" => [
 	"table" => "professionaltitles",
 	],
+	"phongbans" => [
+	"table" => "phongbans",
+	],
+	"khachhangs" => [
+	"table" => "khachhangs",
+	],
+	"interests" => [
+	"table" => "interests",
+	],
+	"watcheds" => [
+	"table" => "watcheds",
+	],
+	"realestatelistings" => [
+	"table" => "realestatelistings",
+	],
 ];

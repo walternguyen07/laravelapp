@@ -69,5 +69,30 @@ return [
 	"deleted" => "The ProfessionalTitle was successfully deleted.",
 	"updated" => "The ProfessionalTitle was successfully updated.",
 	],
+	"phongbans" => [
+	"created" => "The PhongBan was successfully created.",
+	"deleted" => "The PhongBan was successfully deleted.",
+	"updated" => "The PhongBan was successfully updated.",
+	],
+	"khachhangs" => [
+	"created" => "The Khachhang was successfully created.",
+	"deleted" => "The Khachhang was successfully deleted.",
+	"updated" => "The Khachhang was successfully updated.",
+	],
+	"interests" => [
+	"created" => "The Interest was successfully created.",
+	"deleted" => "The Interest was successfully deleted.",
+	"updated" => "The Interest was successfully updated.",
+	],
+	"watcheds" => [
+	"created" => "The Watched was successfully created.",
+	"deleted" => "The Watched was successfully deleted.",
+	"updated" => "The Watched was successfully updated.",
+	],
+	"realestatelistings" => [
+	"created" => "The RealEstateListing was successfully created.",
+	"deleted" => "The RealEstateListing was successfully deleted.",
+	"updated" => "The RealEstateListing was successfully updated.",
+	],
 	],
 ];
