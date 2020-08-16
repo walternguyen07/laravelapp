@@ -16,6 +16,7 @@ class FrontendController extends Controller
      */
     public function index()
     {
+        return redirect()->route('frontend.auth.login');
         $settingData = Setting::first();
         $google_analytics = $settingData->google_analytics;
 
