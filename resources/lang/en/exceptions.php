@@ -134,6 +134,20 @@ return [
 	"not_found" => "That RealEstateListing does not exist.",
 	"update_error" => "There was a problem updating this RealEstateListing. Please try again.",
 	],
+	"streets" => [
+	"already_exists" => "That Street already exists. Please choose a different name.",
+	"create_error" => "There was a problem creating this Street. Please try again.",
+	"delete_error" => "There was a problem deleting this Street. Please try again.",
+	"not_found" => "That Street does not exist.",
+	"update_error" => "There was a problem updating this Street. Please try again.",
+	],
+	"documents" => [
+	"already_exists" => "That Document already exists. Please choose a different name.",
+	"create_error" => "There was a problem creating this Document. Please try again.",
+	"delete_error" => "There was a problem deleting this Document. Please try again.",
+	"not_found" => "That Document does not exist.",
+	"update_error" => "There was a problem updating this Document. Please try again.",
+	],
 	],
 	"frontend" => [
 	"auth" => [

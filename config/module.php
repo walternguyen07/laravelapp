@@ -44,4 +44,10 @@ return [
 	"realestatelistings" => [
 	"table" => "realestatelistings",
 	],
+	"streets" => [
+	"table" => "streets",
+	],
+	"documents" => [
+	"table" => "documents",
+	],
 ];

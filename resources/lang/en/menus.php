@@ -164,6 +164,20 @@ return [
 	"management" => "RealEstateListing Management",
 	"main" => "RealEstateListings",
 	],
+	"streets" => [
+	"all" => "All Streets",
+	"create" => "Create Street",
+	"edit" => "Edit Street",
+	"management" => "Street Management",
+	"main" => "Streets",
+	],
+	"documents" => [
+	"all" => "All Documents",
+	"create" => "Create Document",
+	"edit" => "Edit Document",
+	"management" => "Document Management",
+	"main" => "Documents",
+	],
 	],
 	"language-picker" => [
 	"language" => "Language",
